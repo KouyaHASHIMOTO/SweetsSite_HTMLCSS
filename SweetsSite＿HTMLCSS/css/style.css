@@ -71,29 +71,29 @@ body {
 
 /* menuセクション */
 .menu {
-  padding: 40px 0;
+  padding: 100px 0;
   background-color: #f1eee4;
 }
 
-.menu-name-main {
-  margin-top: 14px;
+.menu-text-contents {
   text-align: center;
-  display: block;
-  font-size: 18px;
+  padding: 16px 10px;
+}
+
+.menu-item + .menu-item {
+  margin-top: 62px;
 }
 
 .menu-name-sub {
-  margin-top: 8px;
-  text-align: center;
-  display: block;
   font-size: 12px;
+  margin-top: 8px;
+  display: block;
   color: #a98c5f;
 }
 
 .menu-text {
-  margin-top: 14px;
-  margin-bottom: 80px;
-  text-align: center;
-  font-size: 15px;
+  font-size: 14px;
+  margin-top: 16px;
+
   color: #a98c5f;
 }
