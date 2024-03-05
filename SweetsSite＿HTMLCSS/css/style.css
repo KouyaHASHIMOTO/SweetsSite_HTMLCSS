@@ -97,3 +97,22 @@ body {
 
   color: #a98c5f;
 }
+
+/* shopセクション */
+.shop {
+  background-image: url("../img/bg-shop.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.shop-inner {
+}
+
+.shop-contents {
+}
+
+.shop-text {
+}
+
+.form {
+}
