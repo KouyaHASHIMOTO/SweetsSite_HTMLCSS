@@ -104,7 +104,7 @@ body {
 
 /* shopセクション */
 .shop {
-  background-image: url("../img/bg-shop.png");
+  background-image: url("../img/sp/bg-shop.png");
   background-position: center center;
   background-size: cover;
   padding: 80px 0;
@@ -198,12 +198,25 @@ body {
 
 /* タブレット、PCサイズの表示 */
 @media screen and (min-width: 768px) {
+  body {
+    color: #3c301e;
+  }
+
+  .header {
+    padding: 16px;
+  }
+
   .header-inner {
     max-width: 1080px;
     padding: 0 40px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+  }
+
+  .header-nav-list {
+    font-size: 17px;
+    gap: 40px;
   }
 
   .header-nav-link {
@@ -231,6 +244,8 @@ body {
 
   .about-contents {
     display: flex;
+    gap: 40px;
+    align-items: center;
   }
 
   .about-text {
@@ -238,18 +253,29 @@ body {
   }
 
   .about-text-contents {
-    margin-left: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: #3c301e;
+    margin-top: 0;
   }
 
   /* menuクラス */
+
   .menu {
     padding-top: 0;
   }
 
   .menu-name-main {
+    font-size: 19px;
     color: #3c301e;
+  }
+
+  .menu-name-sub {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .menu-text {
+    font-size: 14px;
   }
 
   .menu-img {
@@ -261,9 +287,71 @@ body {
     justify-content: space-between;
   }
 
+  .menu-list > .menu-item {
+    margin-top: 0;
+  }
+
+  /* shopクラス */
+  .shop {
+    background-image: url("../img/bg-shop.png");
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0;
+  }
+
+  .shop-inner {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .shop-text {
+    font-size: 15px;
+  }
+
+  .form {
+    display: flex;
+    gap: 20px;
+  }
+
+  .form-input {
+    height: 40px;
+  }
+
+  .form-submit {
+    padding: 10px 30px;
+    margin: 0;
+    transition: opacity 0.3s;
+  }
+
+  .form-submit:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  /* footerクラス */
+
+  .footer-text {
+    font-size: 12px;
+    margin-top: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .footer-nav-list {
+    gap: 40px;
+  }
+
+  .footer-nav-link-text {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .footer-copylight {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
   /* 共通クラス */
   .section-heading-main {
     font-size: 65px;
-    color: #3c301e;
   }
 }
