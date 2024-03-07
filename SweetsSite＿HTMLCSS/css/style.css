@@ -219,4 +219,51 @@ body {
     padding: 0 40px;
     margin: 0 auto;
   }
+
+  /* aboutクラス */
+  .about {
+    padding: 90px 0;
+  }
+
+  .about-img {
+    width: 300px;
+  }
+
+  .about-contents {
+    display: flex;
+  }
+
+  .about-text {
+    font-size: 15px;
+  }
+
+  .about-text-contents {
+    margin-left: 40px;
+    letter-spacing: 1px;
+    color: #3c301e;
+  }
+
+  /* menuクラス */
+  .menu {
+    padding-top: 0;
+  }
+
+  .menu-name-main {
+    color: #3c301e;
+  }
+
+  .menu-img {
+    width: 320px;
+  }
+
+  .menu-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* 共通クラス */
+  .section-heading-main {
+    font-size: 65px;
+    color: #3c301e;
+  }
 }
