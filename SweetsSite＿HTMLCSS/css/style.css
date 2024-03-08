@@ -1,5 +1,11 @@
 body {
   font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  color: #3c301e;
+  letter-spacing: 0.5px;
+}
+
+img {
+  width: 100%;
 }
 
 /* headerクラス */
@@ -13,11 +19,17 @@ body {
   padding: 12px;
 }
 
+.header-logo {
+  width: 200px;
+  margin: 0 auto;
+}
+
 .header-nav {
   margin-top: 10px;
 }
 
 .header-nav-list {
+  font-size: 17px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -57,9 +69,6 @@ body {
   background-color: #f1eee4;
 }
 
-.about-contents {
-}
-
 .about-text-contents {
   margin-top: 20px;
 }
@@ -75,7 +84,7 @@ body {
 
 /* menuセクション */
 .menu {
-  padding: 100px 0;
+  padding: 120px 0 90px 0;
   background-color: #f1eee4;
 }
 
@@ -112,9 +121,6 @@ body {
 
 .shop-inner {
   padding: 0 20px;
-}
-
-.shop-contents {
 }
 
 .shop-text {
@@ -156,11 +162,12 @@ body {
 }
 
 .footer-logo {
+  width: 200px;
+  margin: 0 auto;
 }
 
 .footer-text {
   font-size: 11px;
-  letter-spacing: 2px;
 }
 
 .footer-nav-list {
@@ -171,14 +178,8 @@ body {
   gap: 24px;
 }
 
-.footer-nav-item {
-}
-
-.footer-nav-link {
-}
 .footer-nav-link-text {
   font-size: 11px;
-  letter-spacing: 2px;
   margin-top: 10px;
 }
 
@@ -198,10 +199,9 @@ body {
 
 /* タブレット、PCサイズの表示 */
 @media screen and (min-width: 768px) {
-  body {
-    color: #3c301e;
+  .header-logo {
+    margin: 0;
   }
-
   .header {
     padding: 16px;
   }
@@ -249,11 +249,10 @@ body {
   }
 
   .about-text {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .about-text-contents {
-    letter-spacing: 0.5px;
     color: #3c301e;
     margin-top: 0;
   }
@@ -271,20 +270,16 @@ body {
 
   .menu-name-sub {
     font-size: 12px;
-    letter-spacing: 1px;
   }
 
   .menu-text {
     font-size: 14px;
   }
 
-  .menu-img {
-    width: 320px;
-  }
-
   .menu-list {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
   }
 
   .menu-list > .menu-item {
@@ -333,7 +328,6 @@ body {
   .footer-text {
     font-size: 12px;
     margin-top: 12px;
-    letter-spacing: 0.5px;
   }
 
   .footer-nav-list {
@@ -342,12 +336,10 @@ body {
 
   .footer-nav-link-text {
     font-size: 12px;
-    letter-spacing: 0.5px;
   }
 
   .footer-copylight {
     font-size: 13px;
-    letter-spacing: 1px;
   }
 
   /* 共通クラス */
